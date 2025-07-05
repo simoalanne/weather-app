@@ -42,7 +42,7 @@ To run this app locally using Expo:
 
     ```bash
     git clone https://github.com/simoalanne/HotterVSColderGame
-    cd HotterVSColderGame
+    cd HotterVSColderGame/app
     ```
 
 2. **Install dependencies**
@@ -57,3 +57,7 @@ To run this app locally using Expo:
     npx expo start
     # Depending on your setup, you may need to add the --tunnel flag
     ```
+
+## 🖥️ Additional setup
+
+ If you want to customize what cities are available for the app ```HotterVsColderGame/setup ``` contains a simple python script and original csv file that was used to populate the apps database. The database file ```cities.db``` the app uses is included in this repository and is inside ```HotterVsColderGame/app/src/assets``` directory.
